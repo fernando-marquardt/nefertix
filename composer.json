@@ -1,0 +1,23 @@
+{
+    "name": "nefertix/db",
+    "description": "A simple PHP database library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fernando Marquardt",
+            "email": "fernando.marquardt@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Nefertix\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.1"
+    }
+}
